@@ -1,0 +1,19 @@
+[project]
+name = "ursina_webview"
+version = "0.1.0"
+description = "Browser WebView integration for Ursina using cefpython3"
+authors = [{name = "OpenAI", email = "noreply@example.com"}]
+license = {text = "MIT"}
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "ursina",
+    "cefpython3",
+]
+
+[tool.pytest.ini_options]
+addopts = "--cov=ursina_webview --cov-report=html"
+
+[build-system]
+requires = ["setuptools>=61", "wheel"]
+build-backend = "setuptools.build_meta"

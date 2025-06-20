@@ -1,5 +1,12 @@
-# SineWave
-An Ursina Engine Chromium Browser
-![image](https://github.com/Raphi-2Code/SineWave/assets/70066593/61e857ca-feb9-4072-931a-4a2a293ee847)
+# ursina_webview
 
-![2024-02-12 20-54-51](https://github.com/Raphi-2Code/SineWave/assets/70066593/b7b7db60-1521-49fc-ae1a-a4f223ad8239)
+Browser WebView integration for Ursina using `cefpython3` with optional PyQt6 fallback.
+
+**Note**: `cefpython3` ships with an old Chromium build. Consider using the Qt fallback if you need newer web features.
+
+## Running the example
+
+```bash
+pip install ursina cefpython3
+python -m ursina_webview.examples.spinning_cube_with_webview
+```

@@ -1,0 +1,7 @@
+site_name: ursina_webview
+nav:
+  - Home: index.md
+plugins:
+  - search
+  - mkdocstrings:
+      default_handler: python
